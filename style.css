@@ -1,0 +1,409 @@
+
+body{
+    background-image: url(bg-pattern-bottom-desktop.svg), url(bg-pattern-top-desktop.svg);
+    /* background-position: ; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'League Spartan', sans-serif;
+    padding: 2rem 10rem;
+}
+
+.left{
+    width: 33rem;
+}
+
+.left h1{
+    font-size: 4.5rem;
+    line-height: 50px;
+    color: hsl(300, 53%, 23%);
+}
+
+.left p{
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.right{
+    width: 50px;
+    position: relative;
+    left: 50rem;
+    top: -19rem;
+}
+
+.right .first{
+    background-color: hsl(300, 24%, 96%);
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.right .first p{
+    position: relative;
+    top: 9px;
+    font-size: 1.1rem;
+    color: hsl(300, 53%, 23%);
+}
+
+.right .second{
+    background-color: hsl(300, 24%, 96%);
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+}
+
+.right .second p{
+    position: relative;
+    top: 9px;
+    font-size: 1.1rem;
+    color: hsl(300, 53%, 23%);
+}
+
+.right .third{
+    background-color: hsl(300, 24%, 96%);
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    left: 100px;
+}
+
+.right .third p{
+    position: relative;
+    top: 9px;
+    font-size: 1.1rem;
+    color: hsl(300, 53%, 23%);
+}
+
+.buttom{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: -80px;
+    color: white;
+}
+.buttom .one{
+    border: 1px solid;
+    padding: 30px 20px;
+    width: 270px;
+    height: 140px;
+    background-color: hsl(300, 53%, 23%);
+    border-radius: 10px;
+}
+
+.buttom .one a{
+    text-decoration: none;
+}
+
+.buttom .one img{
+    width: 40px;
+    border-radius: 60px;
+}
+
+.buttom .one .id {
+    position: relative;
+    left: 60px;
+    top: -47px;
+    line-height: 0.1px;
+    color: white;
+}
+
+.buttom .one >p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    top: -25px;
+    
+}
+
+.buttom .two{
+    border: 1px solid;
+    padding: 30px 20px;
+    width: 270px;
+    height: 140px;
+    background-color: hsl(300, 53%, 23%);
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+}
+
+.buttom .two a{
+    text-decoration: none;
+}
+
+.buttom .two img{
+    width: 40px;
+    border-radius: 60px;
+}
+
+.buttom .two .id {
+    position: relative;
+    left: 60px;
+    top: -47px;
+    line-height: 0.1px;
+    color: white;
+}
+
+.buttom .two >p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    top: -25px;
+}
+
+.buttom .three{
+    border: 1px solid;
+    padding: 30px 20px;
+    width: 270px;
+    height: 140px;
+    background-color: hsl(300, 53%, 23%);
+    position: relative;
+    top: 60px;
+    border-radius: 10px;
+}
+
+.buttom .three a{
+    text-decoration: none;
+}
+
+.buttom .three img{
+    width: 40px;
+    border-radius: 60px;
+}
+
+.buttom .three .id {
+    position: relative;
+    left: 60px;
+    top: -47px;
+    line-height: 0.1px;
+    color: white;
+}
+
+.buttom .three >p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    top: -25px;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        background-image: url(bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 0.5rem 2rem;
+    }
+
+    .left{
+        width: 40rem;
+    }
+
+    .left h1{
+        font-size: 5.9rem;
+        line-height: 70px;
+    }
+
+    .left p{
+        font-size: 1.5rem;
+    }
+
+    .right{
+        width: 50px;
+        position: relative;
+        left: 3.5rem;
+        top: 2rem;
+    }
+    
+     .right .first{
+        width: 600px;
+        height: 76px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .right .first p{
+        top: 5px;
+        left: 10px;
+        font-size: 1.8rem;
+    }
+
+    .right .first span{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 140px;
+    }
+
+    .right .second{
+        width: 600px;
+        height: 76px;
+        position: relative;
+        left: 0px;
+    }
+
+    .right .second p{
+        top: 5px;
+        left: 10px;
+        font-size: 1.8rem;
+    }
+
+    .right .second span{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 120px
+    }
+
+    .right .third{
+        width: 600px;
+        height: 76px;
+        position: relative;
+        left: 0px;
+    }
+
+    .right .third p{
+        top: 5px;
+        left: 10px;
+        font-size: 1.8rem;
+    }
+
+    .right .third span{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 140px
+    }
+
+    
+    .buttom{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 2rem;
+        margin-top: 100px;
+        color: white;
+    }
+
+    .buttom .two{
+        border: 1px solid;
+        padding: 30px 20px;
+        width: 270px;
+        height: 140px;
+        position: relative;
+        top: 0px;
+    }
+
+    .buttom .three{
+        border: 1px solid;
+        padding: 30px 20px;
+        width: 270px;
+        height: 140px;
+        background-color: hsl(300, 53%, 23%);
+        position: relative;
+        top: 0px;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width:320px){
+    body{
+        background-image: url(bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 0rem;
+    }
+
+    .left{
+        width: 25rem;
+        text-align: center;
+        position: relative;
+        left: 5px;
+    }
+
+    .left h1{
+        font-size: 3.5rem;
+        line-height: 70px;
+        padding: 1rem;
+        line-height: 0.9;
+    }
+
+     .left p{
+         position: relative;
+         top: -20px;
+         font-weight: bold;
+        font-size: 1rem;
+         color: hsl(300deg 16.41% 33.96%);
+    }
+
+    .right{
+        width: 20px;
+        left: 25px;
+    }
+
+     .right .first{
+        width: 300px;
+        height: 52px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .right .first p{
+        top: 5px;
+        left: 10px;
+        font-size: 0.95rem;
+    }
+
+    .right .first span{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+
+    .right .second{
+        width: 300px;
+        height: 52px;
+        position: relative;
+        left: 0px;
+    }
+
+    .right .second p{
+        top: 5px;
+        left: 10px;
+        font-size: 0.95rem;
+    }
+
+    .right .second span{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 50px
+    }
+
+    .right .third{
+        width: 300px;
+        height: 52px;
+        position: relative;
+        left: 0px;
+    }
+
+    .right .third p{
+        top: 5px;
+        left: 10px;
+        font-size: 0.95rem;
+    }
+
+    .right .third span{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 60px
+    }
+
+    .buttom{
+        width: 90%;
+        position: relative;
+        left: 35px
+    }
+}
